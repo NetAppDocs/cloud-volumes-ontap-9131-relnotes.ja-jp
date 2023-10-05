@@ -701,4 +701,8 @@ HAペア：18（ノード^1^</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">BlueXPのすべてのマニュアル</block>
   <block id="117bdbda976fe8b3212bc3b6327a0a1b" category="sidebar">Cloud Volumes ONTAP</block>
   <block id="dea335c9c6f638eb584011e253ad6ca1" category="sidebar">ONTAPクラウド</block>
+  <block id="8b2d765c50b94c53d6721cec3481a157" category="section-title">9.13.1 P1（2023年10月3日）</block>
+  <block id="2de7023f95c4ec26ccc423bd34c3771c" category="paragraph">バージョン3.9.26以降を実行しているコネクタを使用している場合、すべてのクラウドプロバイダでCloud Volumes ONTAP 9.13.1 P1パッチを利用できるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。</block>
+  <block id="a9380d77cd3c45a5f15f09b231323443" category="inline-link-macro">P1パッチで修正されたバグの一覧を表示する</block>
+  <block id="a381b8f37c04a51537dbe6d9053cfbbb" category="paragraph"><block ref="ccefc7f2c29a122e93c4f12a5703f3ec" category="inline-link-macro-rx"></block> （NetApp Support Siteへのログインが必要です）。</block>
 </blocks>
