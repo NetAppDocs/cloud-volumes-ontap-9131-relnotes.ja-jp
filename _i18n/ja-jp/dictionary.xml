@@ -442,9 +442,7 @@ HAペア：18（ノード^1^</block>
   <block id="9f71cb3204a7c80e435b6337aed1e728" category="cell">256TiB です</block>
   <block id="6c3b49ddb811c2d88edee86163680009" category="section-title">ノードベースのライセンスには制限があります</block>
   <block id="d017aa906544a3348ee35d75ebb10b72" category="paragraph">次のディスク制限は、ノード単位のライセンスをCloud Volumes ONTAP に付与することが可能な旧世代のライセンスモデルであるノードベースのライセンスを使用するCloud Volumes ONTAP システムに適用されます。既存のお客様は、ノードベースのライセンスを引き続き利用できます。</block>
-  <block id="52960fb5a2829740ddef9c61b6015d59" category="list-text">ノードベースのライセンスを使用する場合は、Cloud Volumes ONTAP BYOLシステム用に複数のノードベースのライセンスを購入して、368TiBを超える容量を割り当てることができます。</block>
   <block id="275e3ef1a302e67e93bcf0f30d566f74" category="inline-link">Cloud Volume にシステムライセンスを追加する方法について説明します ONTAP</block>
-  <block id="05c9b06fc32318d0689c553219a9d496" category="paragraph">シングルノードシステムまたは HA ペアに対して購入できるライセンスの数に制限はありません。ディスク制限によって、ディスクだけを使用することで容量制限に達することがないことに注意してください。を使用すると、ディスク制限を超えることができます<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>。<block ref="ca37ce4dde5616ef242d545490c7e6ee" category="inline-link-rx"></block>。</block>
   <block id="fff4bb20e652c529e2e22e76e56ed9b5" category="section-title">PAYGO Premiumでは1つのノード</block>
   <block id="40959eff270cd482e3813b16716a7ee3" category="cell">21 ^ 1 ^</block>
   <block id="c7867e37fc822edce03899d5be8cd610" category="cell">19^2^</block>
@@ -454,7 +452,6 @@ HAペア：18（ノード^1^</block>
   <block id="cabc996760a00c42a2b15b388054d050" category="cell">複数のライセンスを持つ最大システム容量</block>
   <block id="bb49543449782c0f1b87b3ef8f49a6be" category="cell">* ディスクのみ *</block>
   <block id="e3185eb0708df4883935910ebf26f8db" category="cell">* ディスク + データ階層化 *</block>
-  <block id="f94f9afeacfc431720c782db2e1d8809" category="cell">1 ライセンスあたり 368 TiB</block>
   <block id="9dbb7f356b08de585f6ddbe523e4a8d8" category="section-title">PAYGO PremiumでHAペアを構成</block>
   <block id="156b98ab4634edb024f99442726e3e8d" category="cell">18^1 ^ 1^</block>
   <block id="dee0912fefbe003d7ae380d371a87fad" category="cell">16^2^</block>
@@ -705,4 +702,7 @@ HAペア：18（ノード^1^</block>
   <block id="2de7023f95c4ec26ccc423bd34c3771c" category="paragraph">バージョン3.9.26以降を実行しているコネクタを使用している場合、すべてのクラウドプロバイダでCloud Volumes ONTAP 9.13.1 P1パッチを利用できるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。</block>
   <block id="a9380d77cd3c45a5f15f09b231323443" category="inline-link-macro">P1パッチで修正されたバグの一覧を表示する</block>
   <block id="a381b8f37c04a51537dbe6d9053cfbbb" category="paragraph"><block ref="ccefc7f2c29a122e93c4f12a5703f3ec" category="inline-link-macro-rx"></block> （NetApp Support Siteへのログインが必要です）。</block>
+  <block id="fd164e9cb2bc1ac5405cabfe451663f7" category="cell">2PiB（複数のライセンスが必要）</block>
+  <block id="2dbd9a217bce4c7ba4ef467f57d6875c" category="paragraph">Cloud Volumes ONTAP BYOLシングルノードまたはHAペアシステム用に複数のノードベースライセンスを購入して、368TiBを超える容量を割り当てることができます（テストおよびサポートされるシステム容量の上限である2PiBまで）。ディスク制限によって、ディスクだけを使用することで容量制限に達することがないことに注意してください。を使用すると、ディスク制限を超えることができます<block ref="aea0958203307daa433f894622f3e640" category="inline-link-rx"></block>。<block ref="ca37ce4dde5616ef242d545490c7e6ee" category="inline-link-rx"></block>。Cloud Volumes ONTAPでは、テストおよびサポートされる最大システム容量2PiBまでサポートされますが、2PiBの制限を超えると、サポートされないシステム構成になります。</block>
+  <block id="de9d6749570efc87e63811b5947fc250" category="paragraph">AWS Secret CloudリージョンとTop Secret Cloudリージョンでは、Cloud Volumes ONTAP 9.12.1以降で複数のノードベースライセンスの購入がサポートされます。</block>
 </blocks>
