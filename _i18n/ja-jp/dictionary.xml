@@ -365,7 +365,6 @@
   <block id="cee631121c2ec9232f3a2f028ad5c89b" category="cell">500ドル</block>
   <block id="9dba50d3a2c2f26daddbf9d144c49772" category="cell">最小サイズ</block>
   <block id="e2fca4ed20d01d1eda8a934cf81cb194" category="cell">20MB</block>
-  <block id="309524b9e1ef1d7d7d905c7cb1d358e9" category="cell">100TB</block>
   <block id="f870c45bb6c4b8bad8f13c8dc3439f98" category="cell">* qtree *</block>
   <block id="8032f0290a7c4e00a6da3a195523a94e" category="cell">FlexVol あたりの最大数</block>
   <block id="38de34e4b49b8adfeb2c678818915204" category="cell">4,995人</block>
@@ -504,7 +503,6 @@ HAペア：18（ノード^1^</block>
   <block id="d5b5d1eda2a2c0d060f59094000e6aea" category="paragraph">プライベート IP アドレスが必要なため、追加で作成できる Storage VM の数が制限されます。ただし、複数の AZ にまたがる HA ペアは例外です。この場合、管理 LIF の IP アドレスは _floating_ip アドレスであるため、 _private_IP 制限にはカウントされません。</block>
   <block id="4f9154c68af93dc525373bf1a9c2edce" category="section-title">ファイルとボリュームの制限</block>
   <block id="8e79313a5b6fb51ae3e76e64449c9f1d" category="cell">クローン階層の深さ ^1^</block>
-  <block id="87338ad799bddd85c6298bb9270dc27f" category="cell">100TiB</block>
   <block id="b07f6144410a8635e8ae505b186322a5" category="summary">このリリースノートでは、Cloud Volumes ONTAP 9.13.1の新機能、制限事項、および既知の問題について説明します。</block>
   <block id="a69b1618b78e74242413945e92315e51" category="doc">Cloud Volumes ONTAP 9.13.1リリースノート</block>
   <block id="fa082ab1a05e05550971e6e5f583dcfe" category="summary">AWS では、いくつかの Cloud Volumes ONTAP 構成がサポートされます。</block>
@@ -723,4 +721,14 @@ HAペア：18（ノード^1^</block>
   <block id="3ce503369e80942d964c3b72a728ac2c" category="paragraph">すべてのクラウドプロバイダを対象に、Cloud Volumes ONTAP 9.13.1 P4パッチが提供されるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。</block>
   <block id="cae74b75cb879fa6011c4bc1e9acafed" category="inline-link-macro">P4 パッチで修正されたバグのリストを確認します</block>
   <block id="174f5a3432e3e9670c04cb8a7c4f61c3" category="paragraph"><block ref="efca5c18573798e68d22652d087930ab" category="inline-link-macro-rx"></block> （NetApp Support Siteへのログインが必要です）。</block>
+  <block id="64063abe39aac990beb215f4e4df9f92" category="cell">最大サイズ^2^</block>
+  <block id="d0bb632fcdb31cf3c729c1c59f826d4f" category="cell">128 TB</block>
+  <block id="95f8ab07e6196c13df81b9123cb42b19" category="cell">最大サイズ^3^</block>
+  <block id="4dd4655034851cefb46869bef690cc22" category="cell">300TiB</block>
+  <block id="ae809759e1518d5c4c2019b9c03f15a1" category="list-text">ONTAP 9.12.1P2以降では、上限は128TBです。ONTAP 9.11.1以前のバージョンでは、最大16TBです。</block>
+  <block id="23631a3c0b249b8021bdc886f847e2ae" category="list-text">次のツールと最小バージョンを使用して、最大サイズ300TiBまでのFlexVolボリュームを作成できます。</block>
+  <block id="5680c249ee040de9c43f982996ed2a24" category="list-text">System ManagerとONTAP CLI（Cloud Volumes ONTAP 9.12.1 P2および9.13.0 P2以降）</block>
+  <block id="68c68c70121e1d9364223bb9fded83b0" category="list-text">Cloud Volumes ONTAP 9.13.1以降のBlueXP</block>
+  <block id="e9829882fb6e0848cde711ff5e6fcbb1" category="list-text">クローン階層の深さは、1つのFlexVolボリュームから作成できるFlexCloneボリュームのネストされた階層の最大階層です。</block>
+  <block id="ea8e9cb87ad8076ed2bdd562222045c8" category="cell">300TB</block>
 </blocks>
