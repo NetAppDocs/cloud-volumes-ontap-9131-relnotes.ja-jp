@@ -731,4 +731,8 @@ HAペア：18（ノード^1^</block>
   <block id="68c68c70121e1d9364223bb9fded83b0" category="list-text">Cloud Volumes ONTAP 9.13.1以降のBlueXP</block>
   <block id="e9829882fb6e0848cde711ff5e6fcbb1" category="list-text">クローン階層の深さは、1つのFlexVolボリュームから作成できるFlexCloneボリュームのネストされた階層の最大階層です。</block>
   <block id="ea8e9cb87ad8076ed2bdd562222045c8" category="cell">300TB</block>
+  <block id="9be6e2b3828ef34b87981b1fed1d7d49" category="section-title">9.13.1 P6（2024年2月5日）</block>
+  <block id="45c3fd07b44be9221ac34d409aa7afa2" category="paragraph">すべてのクラウドプロバイダを対象に、Cloud Volumes ONTAP 9.13.1 P6パッチが提供されるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。</block>
+  <block id="4d90d21642c7222312363da000d7409f" category="inline-link-macro">P6パッチで修正されたバグのリストを表示する</block>
+  <block id="417efdf7267a8f2b68aa9938ecb8ed83" category="paragraph"><block ref="40427ff7eb35eecb9c6ff0d928baffa1" category="inline-link-macro-rx"></block> （NetApp Support Siteへのログインが必要です）。</block>
 </blocks>
