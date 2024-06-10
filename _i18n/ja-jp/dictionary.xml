@@ -503,7 +503,6 @@ HAペア：18（ノード^1^</block>
   <block id="d5b5d1eda2a2c0d060f59094000e6aea" category="paragraph">プライベート IP アドレスが必要なため、追加で作成できる Storage VM の数が制限されます。ただし、複数の AZ にまたがる HA ペアは例外です。この場合、管理 LIF の IP アドレスは _floating_ip アドレスであるため、 _private_IP 制限にはカウントされません。</block>
   <block id="4f9154c68af93dc525373bf1a9c2edce" category="section-title">ファイルとボリュームの制限</block>
   <block id="8e79313a5b6fb51ae3e76e64449c9f1d" category="cell">クローン階層の深さ ^1^</block>
-  <block id="b07f6144410a8635e8ae505b186322a5" category="summary">このリリースノートでは、Cloud Volumes ONTAP 9.13.1の新機能、制限事項、および既知の問題について説明します。</block>
   <block id="a69b1618b78e74242413945e92315e51" category="doc">Cloud Volumes ONTAP 9.13.1リリースノート</block>
   <block id="fa082ab1a05e05550971e6e5f583dcfe" category="summary">AWS では、いくつかの Cloud Volumes ONTAP 構成がサポートされます。</block>
   <block id="8bb0da4c260f565e0c8162ea9c2b7caa" category="doc">AWS でサポートされる構成</block>
@@ -747,4 +746,5 @@ HAペア：18（ノード^1^</block>
   <block id="53ce0a94e090cdbb2c32cbf8aac660ce" category="paragraph">すべてのクラウドプロバイダを対象に、Cloud Volumes ONTAP 9.13.1 P9パッチがリリースされました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。</block>
   <block id="4b99ccc66c896711e2667fd1c7cc5a70" category="inline-link-macro">P9パッチで修正されたバグのリストを表示する</block>
   <block id="5e4596dae3990ec330418a9546e92a77" category="paragraph"><block ref="1e9f3632a6b42f23498b02cf3b6234ab" category="inline-link-macro-rx"></block> （NetApp Support Siteへのログインが必要です）。</block>
+  <block id="66929aea59eb5153444c9aa0a8e8722f" category="sidebar">このリリースノートでは、Cloud Volumes ONTAP 9.13の新機能、制限事項、および既知の問題について説明します。</block>
 </blocks>

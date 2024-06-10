@@ -1,6 +1,10 @@
 ---
 indexpage:
-  lead: このリリースノートでは、Cloud Volumes ONTAP 9.13.1の新機能、制限事項、および既知の問題について説明します。
+  title: Cloud Volumes ONTAP 9.13.1リリースノート
+  summary: このリリースノートでは、Cloud Volumes ONTAP 9.13の新機能、制限事項、および既知の問題について説明します。
+  keywords: cloud volumes ontap, licensing, security, release notes, storage, data
+    protection, configuration, upgrade, encryption, cvo, 9131
+  lead: このリリースノートでは、Cloud Volumes ONTAP 9.13の新機能、制限事項、および既知の問題について説明します。
   tiles:
   - title: はじめに
     links:
