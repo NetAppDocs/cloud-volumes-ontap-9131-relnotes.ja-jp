@@ -683,7 +683,6 @@ HAペア：18（ノード^1^</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">ネットアップコミュニティ</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXPブログ</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">クラウドに関する Web セミナー</block>
-  <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">リリースノートのホーム</block>
   <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="sidebar">AWS</block>
   <block id="3a580f142203677f1f0bc30898f63f53" category="sidebar">Azure</block>
   <block id="482723983a4f2af954e36ff41e567451" category="sidebar">既知の制限</block>
@@ -762,4 +761,15 @@ HAペア：18（ノード^1^</block>
   <block id="11239924a0f998971d2f090e7e50b3e0" category="paragraph">FabricPoolの機能を使用する<block ref="567317ccd355e882ed3e573ab1b87615" prefix=" " category="inline-code"></block>と、ファイルレベルでの読み取り処理が増加し、パブリッククラウドでの読み取りコストとメモリ利用率が上昇する可能性があります。</block>
   <block id="9e212a2c3e1a9570b60e318e22e8c381" category="paragraph-title">Cloud Write機能</block>
   <block id="c2c4fca58f0994c8802a93fe1a04cd7d" category="paragraph">NFSクライアントからFabricPoolの大容量階層に直接書き込むことができます。この機能には一定の制限があるため、注意して使用してください。たとえば、SnapMirrorなどの通常のONTAPトラフィックにクラウド書き込みNFSトラフィックが追加されると、SnapMirrorの全体的な目標復旧時点（RPO）と目標復旧時間（RTO）が影響を受ける可能性があります。</block>
+  <block id="0a8869c8814390edc64d7a89c95538fb" category="section-title">9.13.1 P12（2024年11月25日）</block>
+  <block id="1b62edb82c1bd156e44ee97345e44486" category="paragraph">すべてのクラウドプロバイダのCloud Volumes ONTAPで、9.13.1 P12パッチが利用できるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。</block>
+  <block id="8a1258bf37cf0340b92dd9f9ca39acfa" category="inline-link-macro">P12パッチで修正されたバグの一覧を表示する</block>
+  <block id="455214c21df5263f6ed36c053cb45a4e" category="paragraph"><block ref="9c93dffbb4ec23fa855293479535be60" category="inline-link-macro-rx"></block> （NetAppサポートサイトへのログインが必要です）。</block>
+  <block id="e107edea5015f3e06a3e74dda1dc6b6f" category="inline-link">FabricPoolベストプラクティスガイド</block>
+  <block id="35817b290a25aecb5178d7e9eaf01a17" category="paragraph">詳細については、<block ref="a846ee339ee812c7fc25a76975d73fb9" category="inline-link-rx"></block></block>
+  <block id="417d564baf44c113e38a023e8ac69531" category="inline-link">アグレッシブ先読みモードの有効化と無効化</block>
+  <block id="40a618f301b0824dc71ab1ceed4fe45d" category="paragraph">詳細については、ONTAPのドキュメントを参照してください。<block ref="5ac0d9b6b12766db0ad38c087c84f3bf" category="inline-link-rx"></block></block>
+  <block id="555816af48eeb34081ba83c44d62bd87" category="inline-link">ボリュームをクラウドに直接書き込むための有効化と無効化</block>
+  <block id="08580da782a41b39a0487a40d392a946" category="paragraph">詳細については、ONTAPのドキュメントを参照してください。<block ref="31143d7508b448ef79ac6c1971109dcf" category="inline-link-rx"></block></block>
+  <block id="a6fe7cde79de251ddde0aaad9dbb2181" category="sidebar">Cloud Volumes ONTAP 9.13.1リリースノート</block>
 </blocks>

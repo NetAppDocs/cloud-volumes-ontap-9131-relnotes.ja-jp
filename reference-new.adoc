@@ -20,6 +20,14 @@ Cloud Volumes ONTAP 9.13.1には、新しい機能拡張が含まれています
 
 
 
+== 9.13.1 P12（2024年11月25日）
+
+すべてのクラウドプロバイダのCloud Volumes ONTAPで、9.13.1 P12パッチが利用できるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。
+
+link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/downloads-tab/download/62632/9.13.1P12["P12パッチで修正されたバグの一覧を表示する"^] （NetAppサポートサイトへのログインが必要です）。
+
+
+
 == 9.13.1 P11（2024年10月14日）
 
 すべてのクラウドプロバイダのCloud Volumes ONTAPで、9.13.1 P11パッチが利用できるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。
@@ -109,11 +117,17 @@ FabricPoolのパフォーマンスがいくつか改善されると、Cloud Volu
 .シーケンシャルリードの速度と階層化の向上
 FabricPoolでの読み取りパフォーマンスと階層化のスループットが向上したため、オンプレミスのオブジェクトストアでのや `PUT`の処理率が高くなる可能性があります `GET`。シームレスなパフォーマンスを実現するための十分なパフォーマンスヘッドルームを確保します。
 
+詳細については、 https://www.netapp.com/media/17239-tr-4598.pdf["FabricPoolベストプラクティスガイド"^]
+
 .積極的な先読み機能
 FabricPoolの機能を使用する `Aggressive Readahead`と、ファイルレベルでの読み取り処理が増加し、パブリッククラウドでの読み取りコストとメモリ利用率が上昇する可能性があります。
 
+詳細については、ONTAPのドキュメントを参照してください。 https://docs.netapp.com/us-en/ontap/fabricpool/enable-disable-aggressive-read-ahead-task.html#enable-aggressive-read-ahead-mode-during-volume-creation["アグレッシブ先読みモードの有効化と無効化"^]
+
 .Cloud Write機能
 NFSクライアントからFabricPoolの大容量階層に直接書き込むことができます。この機能には一定の制限があるため、注意して使用してください。たとえば、SnapMirrorなどの通常のONTAPトラフィックにクラウド書き込みNFSトラフィックが追加されると、SnapMirrorの全体的な目標復旧時点（RPO）と目標復旧時間（RTO）が影響を受ける可能性があります。
+
+詳細については、ONTAPのドキュメントを参照してください。 https://docs.netapp.com/us-en/ontap/fabricpool/enable-disable-volume-cloud-write-task.html["ボリュームをクラウドに直接書き込むための有効化と無効化"^]
 
 
 
