@@ -1,10 +1,10 @@
 ---
 indexpage:
   title: Cloud Volumes ONTAP 9.13.1リリースノート
-  summary: このリリースノートでは、Cloud Volumes ONTAP 9.13の新機能、制限事項、および既知の問題について説明します。
+  summary: このリリースノートでは、Cloud Volumes ONTAP 9.13.1の新機能、制限事項、および既知の問題について説明します。
   keywords: cloud volumes ontap, licensing, security, release notes, storage, data
     protection, configuration, upgrade, encryption, cvo, 9131
-  lead: このリリースノートでは、Cloud Volumes ONTAP 9.13の新機能、制限事項、および既知の問題について説明します。
+  lead: このリリースノートでは、Cloud Volumes ONTAP 9.13.1の新機能、制限事項、および既知の問題について説明します。
   tiles:
   - title: はじめに
     links:
@@ -41,6 +41,6 @@ indexpage:
     - title: ネットアップコミュニティ
       url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
     - title: BlueXPブログ
-      url: https://cloud.netapp.com/blog
+      url: https://bluexp.netapp.com/blog
     - title: クラウドに関する Web セミナー
-      url: https://cloud.netapp.com/events
+      url: https://bluexp.netapp.com/events

@@ -83,7 +83,6 @@
   <block id="9655d27d34aaf491a4183d57c0530647" category="list-text">シングルノードシステムを使用する場合、すべてのタイプのインスタンスで高速書き込みがサポートされます。展開中または後であればいつでも、BlueXPから高速の書き込み速度を有効にできます。<block ref="721fe5ee3bbc3d8295d8615ed77ff9be" category="inline-link-rx"></block>。</block>
   <block id="5063d3259058d90bbca06465957626d7" category="list-text">SSD の使用時には書き込みパフォーマンスの向上が実現します。</block>
   <block id="a3f8304ab1695053d71855c60f8abf63" category="inline-link">Cloud Volume グローバルリージョン</block>
-  <block id="7c7627c6477255acb2239bd1be90f346" category="list-text">Azure リージョンのサポートについては、を参照してください<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>。</block>
   <block id="e7089e61c962cfdae0de5b1d0748b6f2" category="list-text">Cloud Volumes ONTAP は、クラウドプロバイダから予約済みまたはオンデマンドの VM インスタンスのいずれかで実行できます。他の種類の VM インスタンスを使用するソリューションはサポートされていません。</block>
   <block id="f358bc744fba7780236855c1c4777b38" category="list-text">シングルノード環境では、Standard SSD、HDD、Premium SSDについて、ローカル冗長ストレージ（LRS）で管理されるディスクのみがサポートされます。</block>
   <block id="8c41a0d9e980d7223b4ad7585ce70fa2" category="section-title">共有管理対象ディスクがあるHAペア</block>
@@ -150,7 +149,6 @@
   <block id="0e3cb01898d99d0091e2a6f5a7572390" category="paragraph">このタイプのマシンで既存のシステムを実行している場合は、引き続き使用できますが、 n2 標準 -4 マシンタイプに切り替えることをお勧めします。</block>
   <block id="3ef8b2478ab52b4e7c7dd18d32c5bf06" category="list-text">高度な書き込みパフォーマンスは、Balanced Persistent DiskおよびPerformance（SSD）永続ディスクを使用する場合に有効になります。</block>
   <block id="30749b02bc62d931d770e6c719254e7b" category="list-text">BlueXPインターフェイスには、StandardおよびBYOLでサポートされる追加のマシンタイプが表示されます。n1-highmem-4ただし、このマシンタイプは本番環境用ではありません。特定のラボ環境でのみ使用できるようになりました。</block>
-  <block id="7093754c2bc2f151c7deef337385971a" category="list-text">Google Cloud Platform リージョンのサポートについては、を参照してください<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>。</block>
   <block id="8e8865183ac138d80e1eac90bc023d09" category="list-text">Cloud Volumes ONTAP ソフトウェアバージョン9.13.0以降では、次のHAペア導入インスタンスで_Flash Cache_、高速の書き込み速度、最大伝送ユニット（MTU）8、896バイトを使用できます。</block>
   <block id="f23467ff8f84fc95ca2baa4b362c7865" category="inline-link">Google CloudでのHAペアの起動</block>
   <block id="df25654d93147d2e6dc5b5b1fd1a4b82" category="paragraph">対象となるインスタンスタイプを導入する際に、_Flash Cache__、および高速の書き込み速度を有効にすることができます。より高い最大伝送単位（8、896バイト）をイネーブルにするには、導入環境でVPC-1、VPC-2、またはVPC-3を選択する必要があります。MTUが大きいほど、ネットワークスループットが向上します。これらの配置のいずれかを起動する方法の詳細については、を参照してください<block ref="663913c4edf07faddf2fc43cb75f2fe2" category="inline-link-rx"></block>。</block>
@@ -192,7 +190,6 @@
   <block id="0066e8873a17823db601b98ebbc37dd2" category="section-title">HA の制限事項</block>
   <block id="b1969fa9ebe4dd2003618adb77082978" category="paragraph">一部のリージョンでは HA ペアがサポートされません。</block>
   <block id="d91c9372e1fdf74d651217f1a36e518b" category="inline-link">サポートされている Azure リージョンのリストを表示します</block>
-  <block id="1e6996b39daf779b565c50c8411fbc8d" category="paragraph"><block ref="8e36f0f32d75ebd3c7851e726c538544" category="inline-link-rx"></block>。</block>
   <block id="7e250845f86eeaaaf4e55296f483f4ee" category="summary">Cloud Volumes ONTAP 9.13.1には、新しい機能拡張が含まれています。</block>
   <block id="59d68d1abaff04001d7f138b569d66a1" category="doc">Cloud Volumes ONTAP 9.13.1の新機能</block>
   <block id="0775e0f9165c68236ce80a5eeaf622d2" category="paragraph">Cloud Volumes ONTAP 9.13.1には、新しい機能拡張が含まれています。</block>
@@ -602,7 +599,6 @@ HAペア：18（ノード^1^</block>
   <block id="9de28fbf6817cd511eb799f9575b611d" category="list-text">EC2 インスタンスタイプを選択する場合は、そのインスタンスが共有インスタンスか専用インスタンスかを指定できます。</block>
   <block id="afea36f2c9999a231c58b7e9dcf3b16e" category="list-text">Cloud Volumes ONTAP は、予約済みまたはオンデマンドの EC2 インスタンスで実行できます。他のタイプのインスタンスを使用するソリューションはサポートされていません。</block>
   <block id="8c4b25218155a1fdb972f4169855d04f" category="section-title">サポートされている地域</block>
-  <block id="4375839c669e051e5f2a8de11ba0c5d0" category="paragraph">AWS リージョンのサポートについては、を参照してください<block ref="2b6a522631c3b3b8afac5466195e108a" category="inline-link-rx"></block>。</block>
   <block id="6a8a2e92f318dbd4f6a8e47b03350d4d" category="summary">Cloud Volumes ONTAP には、安定した運用を実現するために、 Azure にストレージ構成の制限があります。最大のパフォーマンスを得るためには、システムを最大値で構成しないでください。</block>
   <block id="e622ddac1a96836929babb5b993749ba" category="doc">Azure のストレージ制限</block>
   <block id="90f7fe115847c067cf4c52892efe18db" category="paragraph">Cloud Volumes ONTAP は Azure ストレージをディスクとして使用し、これらを _Aggregate__ にグループ化します。アグリゲートは、ボリュームにストレージを提供します。</block>
@@ -743,7 +739,6 @@ HAペア：18（ノード^1^</block>
   <block id="53ce0a94e090cdbb2c32cbf8aac660ce" category="paragraph">すべてのクラウドプロバイダを対象に、Cloud Volumes ONTAP 9.13.1 P9パッチがリリースされました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。</block>
   <block id="4b99ccc66c896711e2667fd1c7cc5a70" category="inline-link-macro">P9パッチで修正されたバグのリストを表示する</block>
   <block id="5e4596dae3990ec330418a9546e92a77" category="paragraph"><block ref="1e9f3632a6b42f23498b02cf3b6234ab" category="inline-link-macro-rx"></block> （NetApp Support Siteへのログインが必要です）。</block>
-  <block id="66929aea59eb5153444c9aa0a8e8722f" category="sidebar">このリリースノートでは、Cloud Volumes ONTAP 9.13の新機能、制限事項、および既知の問題について説明します。</block>
   <block id="b710bbf07a9ba1fa06f2e6f4e77a42db" category="paragraph">次の表に示す帯域幅は、各インスタンスタイプごとにドキュメント化されている AWS の制限に一致しています。これらの制限は、 Cloud Volumes ONTAP が提供する機能と完全に一致しているわけではありません。想定されるパフォーマンスについては、を参照してください<block ref="c23654021de34c23e6d408104aa3bf49" category="inline-link-rx"></block>。</block>
   <block id="b751384b4979535feaa24cfc577163c2" category="section-title">9.13.1 P10（2024年8月8日）</block>
   <block id="d848e97b4447527dba6ddf2890e6029e" category="paragraph">すべてのクラウドプロバイダのCloud Volumes ONTAPで、9.13.1 P10パッチが利用できるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。</block>
@@ -777,4 +772,9 @@ HAペア：18（ノード^1^</block>
   <block id="5eabc8a0c0c39c74fb8dc252d1f4b0a4" category="paragraph"><block ref="2b43c2e9c454c5dada52848a3d251b6a" category="inline-link-macro-rx"></block> （NetAppサポートサイトへのログインが必要です）。</block>
   <block id="c3647f40e3574e0e6f49e20c19135bfa" category="section-title">Azure VM拡張機能の使用に関する制限事項</block>
   <block id="9d167ed7d52d81da8d83590ec3b5a4af" category="paragraph">Cloud Volumes ONTAPでは、Azure Virtual Machine（VM）拡張機能と導入環境内のVMアプリケーションはサポートされません。AzureでVM拡張機能を使用してCloud Volumes ONTAPを使用すると、運用に遅延が発生するため、NetAppではそれらを回避することを推奨</block>
+  <block id="0890aa708cef7529c2bd35cb7d2895df" category="paragraph">AWSリージョンのサポートについては、を参照してください<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>。</block>
+  <block id="f0de068c81c765820aca0fa8fe017396" category="list-text">Azureリージョンのサポートについては、を参照してください<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>。</block>
+  <block id="ef9be83cb59b0572a3581a6724316e48" category="list-text">Google Cloud Platformリージョンのサポートについては、を参照してください<block ref="e55b14db85f4d4837890e415926626e0" category="inline-link-rx"></block>。</block>
+  <block id="d798d4963d0ac509a1bda5483d9b9a52" category="paragraph"><block ref="5a94f18247116693735ff13d8eeaa964" category="inline-link-rx"></block>です。</block>
+  <block id="e352347c3b9ab444c9cbd3aba4e7075d" category="sidebar">このリリースノートでは、Cloud Volumes ONTAP 9.13.1の新機能、制限事項、および既知の問題について説明します。</block>
 </blocks>
