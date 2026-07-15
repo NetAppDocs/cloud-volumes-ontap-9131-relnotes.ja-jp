@@ -739,7 +739,6 @@ HAペア：18（ノード^1^</block>
   <block id="53ce0a94e090cdbb2c32cbf8aac660ce" category="paragraph">すべてのクラウドプロバイダを対象に、Cloud Volumes ONTAP 9.13.1 P9パッチがリリースされました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。</block>
   <block id="4b99ccc66c896711e2667fd1c7cc5a70" category="inline-link-macro">P9パッチで修正されたバグのリストを表示する</block>
   <block id="5e4596dae3990ec330418a9546e92a77" category="paragraph"><block ref="1e9f3632a6b42f23498b02cf3b6234ab" category="inline-link-macro-rx"></block> （NetApp Support Siteへのログインが必要です）。</block>
-  <block id="b710bbf07a9ba1fa06f2e6f4e77a42db" category="paragraph">次の表に示す帯域幅は、各インスタンスタイプごとにドキュメント化されている AWS の制限に一致しています。これらの制限は、 Cloud Volumes ONTAP が提供する機能と完全に一致しているわけではありません。想定されるパフォーマンスについては、を参照してください<block ref="c23654021de34c23e6d408104aa3bf49" category="inline-link-rx"></block>。</block>
   <block id="b751384b4979535feaa24cfc577163c2" category="section-title">9.13.1 P10（2024年8月8日）</block>
   <block id="d848e97b4447527dba6ddf2890e6029e" category="paragraph">すべてのクラウドプロバイダのCloud Volumes ONTAPで、9.13.1 P10パッチが利用できるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。</block>
   <block id="7c8ff86b41b72d8fa99855f2e2c45139" category="inline-link-macro">P10パッチで修正されたバグの一覧を表示する</block>
@@ -781,4 +780,5 @@ HAペア：18（ノード^1^</block>
   <block id="e704552b4c3a7637fec737f29e4f81b7" category="paragraph">すべてのクラウドプロバイダのCloud Volumes ONTAPで、9.13.1 P14パッチが利用できるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。</block>
   <block id="c476446cae3f83bea1b304ddc122e040" category="inline-link-macro">P14パッチで修正されたバグの一覧を表示する</block>
   <block id="78a93fb58bfa815953d0dd609c64d9b2" category="paragraph"><block ref="51eb214624a80ecbca9373da2cbd3635" category="inline-link-macro-rx"></block> （NetAppサポートサイトへのログインが必要です）。</block>
+  <block id="fb83bdf454bf964031306f46d967b051" category="paragraph">以下の表に示す帯域幅は、各インスタンスタイプに記載されている AWS の制限と一致しています。これらの制限は、Cloud Volumes ONTAP が提供できるものと完全には一致しません。期待されるパフォーマンスについては、<block ref="f9e25e1e3616de01564541c204317f8f" category="inline-link-rx"></block>を参照してください。</block>
 </blocks>

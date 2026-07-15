@@ -18,6 +18,7 @@ Azure では、いくつかの Cloud Volumes ONTAP 構成がサポートされ�
 
 
 
+[[supported-configurations-by-license]]
 == ライセンスでサポートされている構成
 
 Cloud Volumes ONTAP は、フォールトトレランスとノンストップオペレーションを実現するために、 Azure ではシングルノードシステムとして、ハイアベイラビリティ（ HA ）ペアのノードとして使用できます。
@@ -26,6 +27,7 @@ Cloud Volumes ONTAP は、フォールトトレランスとノンストップオ
 
 
 
+[[single-node-systems]]
 === シングルノードシステム
 
 Cloud Volumes ONTAP をシングルノードシステムとして Azure に導入する場合は、次の構成から選択できます。
@@ -152,6 +154,7 @@ Cloud Volumes ONTAP をシングルノードシステムとして Azure に導�
 
 
 
+[[ha-pairs]]
 === HA ペア
 
 Azure で Cloud Volumes ONTAP を HA ペアとして導入する場合は、次の構成から選択できます。
@@ -308,12 +311,14 @@ Azure で Cloud Volumes ONTAP を HA ペアとして導入する場合は、次�
 
 
 
+[[supported-disk-sizes]]
 == サポートされるディスクサイズ
 
 Azure では、アグリゲートに同じタイプおよびサイズのディスクを 12 本まで含めることができます。
 
 
 
+[[single-node-systems]]
 === シングルノードシステム
 
 シングルノードシステムで Azure Managed Disks を使用している。次のディスクサイズがサポートされています。
@@ -356,6 +361,7 @@ Azure では、アグリゲートに同じタイプおよびサイズのディ�
 |===
 
 
+[[ha-pairs]]
 === HA ペア
 
 HAペアは管理対象ディスクを使用します。（ページブロブは、9.12.1リリースより前に導入されたHAペアでサポートされています）。

@@ -20,6 +20,7 @@ Cloud Volumes ONTAP 9.13.1には、新しい機能拡張が含まれています
 
 
 
+[[9-13-1-p14-17-april-2025]]
 == 9.13.1 P14（2025年4月17日）
 
 すべてのクラウドプロバイダのCloud Volumes ONTAPで、9.13.1 P14パッチが利用できるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。
@@ -28,6 +29,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-13-1-p13-20-january-2025]]
 == 9.13.1 P13（2025年1月20日）
 
 すべてのクラウドプロバイダのCloud Volumes ONTAPで、9.13.1 P13パッチが利用できるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。
@@ -36,6 +38,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-13-1-p12-25-november-2024]]
 == 9.13.1 P12（2024年11月25日）
 
 すべてのクラウドプロバイダのCloud Volumes ONTAPで、9.13.1 P12パッチが利用できるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。
@@ -44,6 +47,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-13-1-p11-14-october-2024]]
 == 9.13.1 P11（2024年10月14日）
 
 すべてのクラウドプロバイダのCloud Volumes ONTAPで、9.13.1 P11パッチが利用できるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。
@@ -52,6 +56,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-13-1-p10-8-august-2024]]
 == 9.13.1 P10（2024年8月8日）
 
 すべてのクラウドプロバイダのCloud Volumes ONTAPで、9.13.1 P10パッチが利用できるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。
@@ -60,6 +65,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-13-1-p9-22-may-2024]]
 == 9.13.1 P9（2024年5月22日）
 
 すべてのクラウドプロバイダを対象に、Cloud Volumes ONTAP 9.13.1 P9パッチがリリースされました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。
@@ -68,6 +74,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-13-1-p8-18-april-2024]]
 == 9.13.1 P8（2024年4月18日）
 
 すべてのクラウドプロバイダを対象に、Cloud Volumes ONTAP 9.13.1 P8パッチが提供されるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。
@@ -76,6 +83,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-13-1-p7-1-april-2024]]
 == 9.13.1 P7（2024年4月1日）
 
 すべてのクラウドプロバイダを対象に、Cloud Volumes ONTAP 9.13.1 P7パッチが提供されるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。
@@ -84,6 +92,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-13-1-p6-5-february-2024]]
 == 9.13.1 P6（2024年2月5日）
 
 すべてのクラウドプロバイダを対象に、Cloud Volumes ONTAP 9.13.1 P6パッチが提供されるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。
@@ -92,6 +101,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-13-1-p4-8-december-2023]]
 == 9.13.1 P4（2023年12月8日）
 
 すべてのクラウドプロバイダを対象に、Cloud Volumes ONTAP 9.13.1 P4パッチが提供されるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。
@@ -100,6 +110,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-13-1-p2-and-9-13-1-p3-20-october-2023]]
 == 9.13.1 P2および9.13.1 P3（2023年10月20日）
 
 バージョン3.9.26以降を実行しているコネクタを使用している場合、すべてのクラウドプロバイダのCloud Volumes ONTAPで、9.13.1 P2および9.13.1 P3のパッチが利用できるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。
@@ -110,6 +121,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-13-1-p1-3-october-2023]]
 == 9.13.1 P1（2023年10月3日）
 
 バージョン3.9.26以降を実行しているコネクタを使用している場合、すべてのクラウドプロバイダでCloud Volumes ONTAP 9.13.1 P1パッチを利用できるようになりました。BlueXPでは、既存のシステムをこのパッチリリースにアップグレードするように求められます。
@@ -118,12 +130,14 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-13-1-ga-26-july-2023]]
 == 9.13.1 GA（2023年7月26日）
 
 Cloud Volumes ONTAP 9.13.1のGeneral Availabilityリリースが、AWS、Azure、Google Cloudで利用できるようになりました。
 
 
 
+[[9-13-1-rc1-26-june-2023]]
 == 9.13.1 RC1（2023年6月26日）
 
 Cloud Volumes ONTAP 9.13.1のRelease Candidate 1が、AWS、Azure、Google Cloudで利用できるようになりました。
@@ -147,12 +161,14 @@ NFSクライアントからFabricPoolの大容量階層に直接書き込むこ�
 
 
 
+[[upgrade-notes]]
 == アップグレードに関する注意事項
 
 このリリースへのアップグレードの詳細については、以下のメモをお読みください。
 
 
 
+[[how-to-upgrade]]
 === アップグレード方法
 
 Cloud Volumes ONTAP のアップグレードは、BlueXPから完了している必要があります。System Manager または CLI を使用して Cloud Volumes ONTAP をアップグレードしないでください。これを行うと、システムの安定性に影響を与える可能性
@@ -161,12 +177,14 @@ link:http://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap
 
 
 
+[[supported-upgrade-path]]
 === サポートされているアップグレードパス
 
 Cloud Volumes ONTAP 9.12.1および9.13.0リリースから9.13.1にアップグレードできます。BlueXPでは、対象となるCloud Volumes ONTAP システムをこのリリースにアップグレードするように求められます。
 
 
 
+[[required-version-of-the-connector]]
 === 必要なコネクタのバージョン
 
 新しいCloud Volumes ONTAP 9.13.1システムを導入し、既存のシステムを9.13.1にアップグレードするには、BlueXP Connectorのバージョン3.9.26以降が実行されている必要があります。
@@ -176,6 +194,7 @@ TIP: コネクタの自動アップグレードはデフォルトで有効にな
 
 
 
+[[downtime]]
 === ダウンタイム
 
 * シングルノードシステムのアップグレードでは、 I/O が中断されるまで最大 25 分間システムがオフラインになります。
@@ -184,6 +203,7 @@ TIP: コネクタの自動アップグレードはデフォルトで有効にな
 
 
 
+[[c4-m4-and-r4-instances-no-longer-supported]]
 === C4、M4、およびR4のインスタンスはサポートされなくなりました
 
 AWSでは、C4、M4、およびR4 EC2インスタンスタイプはCloud Volumes ONTAP でサポートされなくなりました。C4、M4、またはR4インスタンスタイプで実行されている既存のシステムがある場合は、C5、m5、またはr5インスタンスファミリーでインスタンスタイプに変更する必要があります。インスタンスタイプを変更するまで、このリリースにアップグレードすることはできません。
